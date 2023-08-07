@@ -1,0 +1,17 @@
+import { Fragment } from "react";
+import "./Banner.css";
+
+export const Banner = () => {
+  // JSX
+  // fragment pode usar tb assim => <>/</>
+  return (
+    <Fragment>
+      <header className="banner">
+        <img
+          src="/imagens/banner.png"
+          alt="O banner principal da página do Organo"
+        />
+      </header>
+    </Fragment>
+  );
+};
